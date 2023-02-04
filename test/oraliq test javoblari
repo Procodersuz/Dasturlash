@@ -1,0 +1,245 @@
+1.Algoritm — ma''lum bir turga oid masalalarni yechishda ishlatiladigan amallarning muayyan tartibda bajarilishi
+haqidagi aniq qoida (dastur).
+Kibernetika va matematikaning asosiy tushunchalaridan biri.
+2.Algoritmning 5-ta asosiy xossasi bor:
+Diskretlilik (Cheklilik ) ,Tushunarlilik ,  Aniqlik , Ommaviylik , Natijaviylik
+Javob- Algoritmning 5-ta asosiy xossasi bor:
+Diskretlilik (Cheklilik ) ,Tushunarlilik ,  Aniqlik , Ommaviylik , Natijaviylik
+3.1. Algoritmning so‘zlar orqali ifodalanishi. Bu usulda ijrochi uchun
+beriladigan har bir ko‘rsatma jumlalar, so‘zlar orqali buyruq shaklida beriladi.
+3.2. Algoritmning formulalar bilan ifodalanish usulidan matematika, fizika,
+kimyo kabi aniq fanlardagi formulalarni o‘rganishda foydalaniladi. Bu usul ba’zan
+analitik ifodalash deyiladi.
+3.4 Algoritmlarning maxsus geometrik shakllar yordamida ifodalanishida
+masala yechish jarayoni aniq va ravon tasvirlanadi va bu ko‘rinish blok-sxema
+deyiladi.
+3.5. Algoritmning jadval ko‘rinishda berilishi. Algoritmning bunday
+ifodasidan ham ko‘p foydalanamiz. Masalan, maktabda qo‘llanib kelinayotgan
+to‘rt xonali matematik jadvallar yoki turli xil lotereyalar jadvali. Funksiyalarning
+grafiklarini chizishda ham algoritmlarning qiymatlari jadvali ko‘rinishlaridan
+foydalanamiz. Bu kabi jadvallardan foydalanish algoritmlari sodda bo‘lgani tufayli
+ularni o‘zlashtirib olish oson.
+4. CHiziqli , Tarmoqlanuvchi , Takrorlanuvchi  .
+5. 3 ta.
+6. Blok sxema ish jarayonini ifodalovchi diagramma turi.  Blok sxema qadamlari bir xil blok sxemalar yordamida ifodalanib ular chiziqlar bilan bog’lanadi.
+7. Tarmoqlanuvchi
+8. C, C#, C++, Python, Go lang, Java, JavaScript, Delphi, PHP.
+9. O`zgaruvshi va o`zgarmas kattaliklar.
+10. Ma'lum bir qiymatni saqlash uchun ishlatiladi.
+11. Dastur bajarilishi jarayonida oʻz qiymatini oʻzgartira olmaydigan
+kattaliklar oʻzgarmaslar deyiladi.
+12. Operator  tilning yakunlangan jumlasi hisoblanadi va ma’lumotlar taxlilining tugallangan bosqichini ifodalaydi. Operator nuqtali vergul «;» bilan ajratiladi.
+13. Xizmatchi so’z deb C++ tilidagi standart nom tushuniladi. Bu maxsus ma’noni anglatadi va uni ma’lumotlarga berib bo’lmaydi.
+14. Fikrni bayon qilib ketish
+15. integer, string, double, flaot
+16. Massiv - 1 ta o'zgaruvchida bir nechta qiymatlarni o'zida saqlay oladi.
+17. 0 dan boshlab nomerlanadi
+18. if, else if, else.
+19.Redaktor
+20.Preprotsessor
+21. Komponovshik
+22.Zagruzchik
+23.Main
+24.*/+-
+25. #include <iostream>
+using namespace std;
+int main(){
+​int x, y, z;
+​cin >> x >> y;
+​z = x++ + y;
+​cout << z;
+​return 0;
+}
+26.Ketma-ketlik,tanlashva takrorlash
+27. int func1 (float a)
+28. 3
+29.65535
+30. kompilyator kompyuter хotirasida funktsiya tashkil etadi va uning nushasini programma kodiga ko’chiradi.
+31.(*)
+32.Ssilka=o`zgaruvchi
+33. int type
+34.unsigned short
+35.#include <iostream>
+using namespace std; 
+int main(){
+​int myAge=39,a ,b ;
+​a = myAge++;
+​b =++myAge;
+​cout<<myAge<<endl<<a<<endl<<b;
+​return 0;
+}
+myAge=39; a=myAge++; b=++myAge;    
+36. #include <iostream>
+using namespace std;
+int main(){
+​int a ,b ;
+​cin >> a >> b;
+​if(a > b){
+​​b = a;
+​​cout << b;
+​}
+​else{
+​​a = b;
+​​cout << a;
+​}
+}
+37.Funksiyani o`z o`ziga murojat qilishi.
+38. Bir nechta funktsiyalar bitta ma’lumotni ishlatsa.
+39. Nomi bir xil, parametr va toifalari turli bo’lgan funktsiyalarga.
+40.char
+41.if(x%2==0)
+42.cout
+43.cin
+44x<0?-x:x;
+45.switch
+46.for
+47.while
+48.do while
+49.return
+50.#include<stidlib.h>
+51.const
+52. 2
+53. 1dan 9gacha bo`lgan sonlarni kvadrati.
+54.qatorni o`tkazish
+55.{} [] () * / -  + > < >= <= == # != ; :
+56. z=1
+57.si=123
+58. Float x ,Int x , String x
+59.a=4, m=2, n=2
+60. 50 ta
+61.char,int,str,float,short,double.
+62.int
+63.float, Double
+64. 1 bayt
+65. if(qiymat){operator}
+      Else{operator}
+66.for(qiymt;qiymat2,operator)
+67.struct{tariflar ro`yhati
+68.++ or +=1
+69.— or -=1
+70.gorizantal tablitsa
+71.Bool
+72 malunotlarni oqimga yozish operatsiyasi
+73.oqimda malumatlarni o`qish operatsiyasi
+74.Oqimda bir qator pasga tushish
+75. Siklni uzish operatori
+76.funksiyani qaytarish operatori.
+77.Konstatlar
+79. Ichga kiritilgan
+80. Massivdagi elementlari soni.
+81. Bir tipda bo`lishi kerak emas
+82. Matritsa
+83. Belgi bilan belgilangan operatordan boshlab dasturni bajarishni davom ettirish uchun
+84. Nomi va tipi
+85. Dastur
+86.CONST
+87.60250000
+88.Bjarne Stroustup
+89. Indeks orqali
+90. int a[2] = {1,2,3,4};
+91. Massiv - bu fiksirlangan miqdordagi ayrim qiymatlaming (massiv elementlarining) tartiblangan majmuasidir.
+92. 31
+93. 7 ta
+94. stlib.h
+95. math.h
+96. u boshqaruvni siklning kelasi iteratsiyasining boshlanishiga uzatadi.
+97. ifodalangan nuqtadan blok oxirigacha
+98. n>0
+99.break
+100.return
+101.65536
+102.cheksiz
+103.32768
+104. 5 marta
+105.2 ta true va false
+106. 3
+107. c=0 d=1
+108. x1=1   x2=0
+109. x3=0   x4=1
+110. x5=1   x6=0
+111.Takrorlanish
+112.takrorlanish
+113. 4
+114. 123
+115. x+y=8
+116. x+y=8
+117. real
+118.-0.2
+119.-
+120.float
+121.char
+122.bool
+123.int
+124.-
+125.Sizoef
+126.void
+127. 4 baayt
+128. Kompilyator — murakkab dasturdir, dasturlash tilida yozilgan barcha kodlarni birdaniga ob'yektli kodga o'zgartirib beradi.
+129.ha farqi bor
+130.-
+131.len()
+132.-
+133.imtihondan o`tdi
+134. i=6
+135.qoniqarli
+136.y=6
+137.Qoniqarsiz
+138.x+y=7
+139.x+y=8
+140.4 martda
+141. break - yakka holatda o'zi keladi. funksiya, shart operatori yoki tsikl ni ishini yakunlash uchun ishlatiladi.
+142. for while
+143. operatorda yozilgan narsaga
+144. Funksiya ichida eMon qilingan o‘zgaruvchilarga local o'zgaruvchilar deyiladi.
+145. -   main( ) funksiyasi berilgan bo’lib, bu funksiya ham (main – bosh, asosiy demakdir), albatta, bo’lishi shart va dastur shu funksiyani bajarish bilan o’z ishini boshlaydi.
+146. O‘zgaruvchining yashash vaqti deb, u mavjud bo‘lgan dastur bo‘lagining  bajarilishiga ketgan vaqt intervaliga aytiladi.
+147. fabs()
+148. pow(10,x)
+149.math.h
+150. Mantiqiy turdagi
+151.char
+152. ‘{’ va ‘}’ oralig’iga olingan operatorlar ketma-ketligi bo’lib, u kompilyator tomonidan yaxlit operator deb qabul qilinadi.
+153. int
+154. 8bayt
+155. sqrt
+156. pow(x,y)
+157. break
+158. ldentifikator deganda katta va kichik lotin
+harflari, raqamlar va tag chiziq (‘_’) belgilaridan tashkil topgan va raqamdan boshlanmaydigan belgilar ketma-ketligi tushuniladi.
+159. 53
+160. 24
+161.3  6
+162.1
+163. 100
+164. 759
+165. 6
+166. 8
+167. 23
+168. 7 vv 1
+169. 12.34
+170.67
+171.46
+172. 4
+173. 2 turga ochiq va yopiq
+174. fabs(x)
+175. +48
+176. Write
+177. cin>>
+178. +96
+179. +256
+180. while takrorlash operatori, operator yoki blokni takrorlash sharti yolg‘on (false yoki 0) bo4guncha takror bajaradi.
+181. math.h
+182. Mantiqiy turdagi
+183 +<<
+184. break - yakka holatda o'zi keladi. funksiya, shart operatori yoki tsikl ni ishini yakunlash uchun ishlatiladi.
+185. -   while  shart bajariladi agar to'g'ri bo'lsa tsikl tanasidagi kod ishlatiladi.
+186. 8
+187. davomida nuqtali vergul (;) qo`yigan
+188.go to
+189. Continue
+190 takror yozish 234
+191.10
+192. 45
+193. 0
+194. Break.
+
